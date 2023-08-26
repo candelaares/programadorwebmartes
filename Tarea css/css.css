@@ -1,0 +1,61 @@
+h1 {
+    color: brown;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img {
+    border: 5px solid #f01b31;
+    border-radius: 48px 48px 48px 48px;
+    filter: saturate(189%) drop-shadow(9px 13px 2px #000000);
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+#ultima {
+    text-decoration: underline;
+    text-transform: capitalize;
+    background-color: rgb(245, 141, 105);
+    text-align: center;
+}
+
+p {
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 15px;
+}
+
+.destacar {
+    color: red;
+    font-style: inherit;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
+}
+
+#caja1 {
+    background-color: antiquewhite;
+    width: 350px;
+    height: 170px;
+    padding: 10px;
+    border: 20px groove #ff6550;
+    text-align: left;
+    margin: 5px;
+    border-radius: 72px 72px 72px 72px;
+    box-sizing: border-box;
+    box-shadow: 7px 6px 31px 1px rgba(0, 0, 0, 0.75);
+}
+
+ol {
+    color: rosybrown;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.93);
+}
