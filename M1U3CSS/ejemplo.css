@@ -1,0 +1,78 @@
+h2 {
+    color: blue;
+    /*comentario en css*/
+    /*color de la fuente*/
+    text-transform: uppercase;
+    /*para poner en mayuscula*/
+    text-align: center;
+    /*alinear texto*/
+}
+
+h1 {
+    background-color: yellow;
+    /*fondo de texto color*/
+    font-family: arial;
+    /*tipografia*/
+}
+
+p {
+    color: lightcoral;
+    line-height: 25px;
+    /*separacion entre linea y linea*/
+}
+
+.destacados {
+    color: rebeccapurple;
+    font-weight: bold;
+    /*negrita*/
+    font-style: italic;
+    /*italica*/
+}
+
+#caja {
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    /*separa texto de margen de la caja*/
+    border: 2px solid blue;
+    /*borde de caja*/
+    box-sizing: border-box;
+    /*que la caja mantenga ese tamaño*/
+    margin-left: 150px;
+    /*margen izquierdo de la caja(mueve a la derecha)*/
+    box-shadow: 7px 6px 31px 1px rgba(0, 0, 0, 0.75);
+    border-top: 10px dashed #f86ef7;
+    border-right: 5px solid #f450ff;
+    border-bottom: 10px dashed #181217;
+    border-left: 5px solid #f26ddd;
+    background: #fff8f8;
+}
+
+#caja h2 {
+    margin-bottom: 50px;
+    /*margen que tiene el h2 dentro de la caja con respecto a otros elementos*/
+}
+
+#caja p {
+    font-size: 20px;
+    /*tamaño tipografia dentro de la caja*/
+    text-shadow: 3px -4px 3px rgba(57, 99, 210, 0.69);
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 26px;
+    -webkit-column-gap: 26px;
+    -moz-column-gap: 26px;
+}
+
+#nosotros {
+    border-radius: 17px 17px 17px 17px;
+    width: 600;
+    padding: 20px;
+    background: #005fff;
+    background: linear-gradient(85deg, #005fff 0%, #21ac4b 80%);
+    background: -webkit-linear-gradient(85deg, #005fff 0%, #21ac4b 80%);
+    background: -moz-linear-gradient(85deg, #005fff 0%, #21ac4b 80%);
+    color: wheat;
+}
