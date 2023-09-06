@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2</title>
+</head>
+
+<body>
+    <script>
+        const numeros = [23, 67, 88, 2, 345, 9];
+        document.write(numeros + "<br/> ");
+        let mayor = 0;
+
+        for (let i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+        console.log(`El mayor de ${numeros} es ${mayor}`)
+        document.write(`El mayor de ${numeros} es ${mayor}`)
+    </script>
+</body>
+
+</html>
